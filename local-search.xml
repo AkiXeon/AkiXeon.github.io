@@ -4,6 +4,19 @@
   
   
   <entry>
+    <title>故事的起点</title>
+    <link href="/2024/12/16/firstarticle/"/>
+    <url>/2024/12/16/firstarticle/</url>
+    
+    <content type="html"><![CDATA[<h1 id="Hello"><a href="#Hello" class="headerlink" title="Hello!"></a>Hello!</h1><p>今天是2024&#x2F;12&#x2F;16 😌 部署了一个博客，其实准确来说是昨天部署好今天优化了下。</p><p>为什么要做呢？</p><p>：一是最近有些无所事事，二是最近有些封闭，需要一些对外的输出（哪怕没人看:D），三是有些想要记录生活，不然总感觉一年一如的生活仿佛水中的浪花逸散而去。<br>所以就做了，有一些小目标啊，比如每周至少要有周报，然后月报，年报，兴许能起点督促作用。</p><h2 id="Hexo-Fluid"><a href="#Hexo-Fluid" class="headerlink" title="Hexo&amp;Fluid"></a>Hexo&amp;Fluid</h2><p>这个博客的建立没有自己写代码（ <del>html javascript css</del>  ）,使用了Hexo框架搭配Fluid主题进行了简单部署，基本上只需要修改配置即可。</p><p>教程参考：<a href="https://www.bilibili.com/video/BV1Ju4m1c7WR">https://www.bilibili.com/video/BV1Ju4m1c7WR</a> 选择挂载在github上，因此没有使用独立的服务器。</p><p>写文章用的是markdown,感觉不太需要学，随用随查也够用：<a href="https://markdown.com.cn/">https://markdown.com.cn/</a></p><p>这个是Fluid的配置教程：<a href="https://fluid-dev.github.io/hexo-fluid-docs/start/">https://fluid-dev.github.io/hexo-fluid-docs/start/</a></p><p>每日文章调用的是一言的api，我选了诗词，文学，哲学，这是api调用地址：<a href="https://developer.hitokoto.cn/">https://developer.hitokoto.cn/</a></p><h2 id="以上"><a href="#以上" class="headerlink" title="以上"></a>以上</h2><p>第一次不需要太多内容，就这样结束吧！祝你安好！😁👍</p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Hello World</title>
     <link href="/2024/12/15/hello-world/"/>
     <url>/2024/12/15/hello-world/</url>
