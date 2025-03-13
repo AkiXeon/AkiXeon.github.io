@@ -19,23 +19,21 @@
   <meta name="author" content="Uranus">
   <meta name="keywords" content="">
   
-    <meta name="description" content="周报 这周总算是正式结课了（阴魂不散的计组）">
+    <meta name="description" content="LeetCode - 41. 缺失的第一个正数寒假歇逼了，回到学校调整一下">
 <meta property="og:type" content="article">
-<meta property="og:title" content="周报：24&#x2F;12&#x2F;29">
-<meta property="og:url" content="https://akixeon.github.io/2024/12/28/week2-12-29/index.html">
+<meta property="og:title" content="力扣 3">
+<meta property="og:url" content="https://akixeon.github.io/2025/03/07/leetcode-3/index.html">
 <meta property="og:site_name" content="Uranus&#39;s Blog">
-<meta property="og:description" content="周报 这周总算是正式结课了（阴魂不散的计组）">
+<meta property="og:description" content="LeetCode - 41. 缺失的第一个正数寒假歇逼了，回到学校调整一下">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://akixeon.github.io/img/week2-cont.png">
-<meta property="article:published_time" content="2024-12-28T14:56:57.071Z">
-<meta property="article:modified_time" content="2024-12-30T12:00:49.005Z">
+<meta property="article:published_time" content="2025-03-07T09:26:56.389Z">
+<meta property="article:modified_time" content="2025-03-07T13:47:40.311Z">
 <meta property="article:author" content="Uranus">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://akixeon.github.io/img/week2-cont.png">
   
   
   
-  <title>周报：24/12/29 - Uranus&#39;s Blog</title>
+  <title>力扣 3 - Uranus&#39;s Blog</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -201,7 +199,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="周报：24/12/29"></span>
+            <span id="subtitle" data-typed-text="力扣 3"></span>
           
         </div>
 
@@ -212,8 +210,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2024-12-28 22:56" pubdate>
-          2024年12月28日 晚上
+        <time datetime="2025-03-07 17:26" pubdate>
+          2025年3月7日 下午
         </time>
       </span>
     
@@ -224,7 +222,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          191 字
+          229 字
         
       </span>
     
@@ -272,20 +270,29 @@
       <div class="container nopadding-x-md" id="board-ctn">
         <div id="board">
           <article class="post-content mx-auto">
-            <h1 id="seo-header">周报：24/12/29</h1>
+            <h1 id="seo-header">力扣 3</h1>
             
             
               <div class="markdown-body">
                 
-                <h1 id="周报"><a href="#周报" class="headerlink" title="周报"></a>周报</h1><p> 这周总算是正式结课了（<del>阴魂不散的计组</del>）<span id="more"></span>，该进行学期末的收尾工作了。</p>
-<p> 本周整体还好，有在慢慢的刷<a href="https://akixeon.github.io/2024/12/28/leetcode-2/" title="LeetCode - 3159. 查询数组中元素的出现位置">力扣</a>，复习也有在进行，线性代数基本看完了，下周四要考汇编。<br> 这学期一共考八门</p>
-<blockquote>
-<p>汇编&#x2F;英语&#x2F;线性代数&#x2F;复变函数&#x2F;大学物理&#x2F;JAVA&#x2F;数据结构&#x2F;计算机组成原理</p>
+                <h1 id="LeetCode-41-缺失的第一个正数"><a href="#LeetCode-41-缺失的第一个正数" class="headerlink" title="LeetCode - 41. 缺失的第一个正数"></a>LeetCode - 41. 缺失的第一个正数</h1><p>寒假歇逼了，回到学校调整一下<span id="more"></span></p>
+<h3 id="审题"><a href="#审题" class="headerlink" title="审题"></a>审题</h3><p>给你一个未排序的整数数组 nums ，请你找出其中没有出现的最小的正整数。</p>
+<p>请你实现时间复杂度为 O(n) 并且只使用常数级别额外空间的解决方案。</p>
+<h5 id="示例1："><a href="#示例1：" class="headerlink" title="示例1："></a>示例1：</h5><blockquote>
+<p>输入：nums &#x3D; [1,2,0]<br>输出：3<br>解释：范围 [1,2] 中的数字都在数组中。</p>
 </blockquote>
-<p>其中有两门考研课，难度还是有的，不过感觉挂科应该不至于。</p>
-<p>博客这边的话，在慢慢的探索功能，像是分类&#x2F;概要&#x2F;封面什么的，markdown写的也越来越熟练了</p>
-<p>总体上是很平淡的一周，无事发生，一切都好</p>
-<p><img src="/img/week2-cont.png" srcset="/img/loading.gif" lazyload></p>
+<h5 id="示例-2："><a href="#示例-2：" class="headerlink" title="示例 2："></a>示例 2：</h5><blockquote>
+<p>输入：nums &#x3D; [3,4,-1,1]<br>输出：2<br>解释：1 在数组中，但 2 没有。</p>
+</blockquote>
+<h5 id="示例-3："><a href="#示例-3：" class="headerlink" title="示例 3："></a>示例 3：</h5><blockquote>
+<p>输入：nums &#x3D; [7,8,9,11,12]<br>输出：1<br>解释：最小的正数 1 没有出现。</p>
+</blockquote>
+<h5 id="提示："><a href="#提示：" class="headerlink" title="提示："></a>提示：</h5><ul>
+<li>1 &lt;&#x3D; nums.length &lt;&#x3D; 105</li>
+<li>-231 &lt;&#x3D; nums[i] &lt;&#x3D; 231 - 1</li>
+</ul>
+<h5 id="原始题目："><a href="#原始题目：" class="headerlink" title="原始题目："></a>原始题目：</h5><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs c"><span class="hljs-type">int</span> <span class="hljs-title function_">firstMissingPositive</span><span class="hljs-params">(<span class="hljs-type">int</span>* nums, <span class="hljs-type">int</span> numsSize)</span> &#123;<br>    <br>&#125;<br></code></pre></td></tr></table></figure>
+<h3 id="思路"><a href="#思路" class="headerlink" title="思路"></a>思路</h3><p>显然，对于一个含有N个数据的数组，若所有正整数均不缺少，则应该含有1……N+1，</p>
 
                 
               </div>
@@ -304,7 +311,7 @@
     
       <span class="category-chain">
         
-  <a href="/categories/%E5%91%A8%E6%8A%A5/" class="category-chain-item">周报</a>
+  <a href="/categories/%E7%AE%97%E6%B3%95%E4%B9%8B%E6%97%85/" class="category-chain-item">算法之旅</a>
   
   
 
@@ -324,8 +331,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>周报：24/12/29</div>
-      <div>https://akixeon.github.io/2024/12/28/week2-12-29/</div>
+      <div>力扣 3</div>
+      <div>https://akixeon.github.io/2025/03/07/leetcode-3/</div>
     </div>
     <div class="license-meta">
       
@@ -337,7 +344,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2024年12月28日</div>
+          <div>2025年3月7日</div>
         </div>
       
       
@@ -369,9 +376,9 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2025/03/07/leetcode-3/" title="力扣 3">
+                      <a href="/2025/03/13/qrs-iic/" title="STM32 软件模拟IIC">
                         <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">力扣 3</span>
+                        <span class="hidden-mobile">STM32 软件模拟IIC</span>
                         <span class="visible-mobile">上一篇</span>
                       </a>
                     
@@ -379,8 +386,8 @@
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2024/12/28/leetcode-2/" title="力扣 2">
-                        <span class="hidden-mobile">力扣 2</span>
+                      <a href="/2024/12/28/week2-12-29/" title="周报：24/12/29">
+                        <span class="hidden-mobile">周报：24/12/29</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
